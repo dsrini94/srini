@@ -1,0 +1,353 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Brad Hussey
+Updated: August 2013
+Notes:	 Hand coded for Udemy.com
+
+*/
+
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+   body
+   {
+      margin: auto;
+      -webkit-font-smoothing: antialiased;
+   text-rendering: optimizelegibility;
+   background-image: url('../../img/background.png');
+
+   }
+   .container
+   {
+      margin: auto;
+   }
+   #recent 
+   {
+      margin-top: 25px;
+   }
+   #snowden
+   {
+      
+      margin-top: 45px;
+   }
+   #snowden h5
+   {
+      position: absolute;
+      color: white;
+      bottom: -5px;
+      left: 35px;
+   }
+   #tarzan 
+   {
+      
+      margin-top: 45px;
+   }
+   #conjuring
+   {
+      margin-top: 45px;
+   }
+   #bfg
+   {
+      margin-top: 45px;
+      
+   }
+   #movieinfo
+   {
+      margin-top: 120px;
+      margin-bottom: 40px;
+   }
+   #info
+   {
+      color: white;
+      margin-left: 0px;
+   }
+   
+   #info h4
+   {
+      font-family: 'Rubik', sans-serif;
+   }
+   #poster img
+   {
+      margin-bottom: 10px;
+   }
+   #alertMe
+   {
+      width: 250px;
+   }
+   #tabheading h3
+   {
+      color: #E67E22 ;
+   }
+   #rmovies h3
+   {
+      color: #E67E22 ;
+   }
+  
+   #tab1 p
+   {
+      color: white;
+      font-size: 15px;
+   }
+   #related
+   {
+      margin-left: 25px;
+   }
+   #related img
+   {
+      margin-left: 30px;
+   }
+   #downloadbtn
+   {
+      margin-top: 100px;
+   }
+   #magnet
+   {
+      margin-top: 10px;
+   }
+   footer
+   {
+      margin-top: 25px;
+   }
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+   #recent .container h1
+   {
+      font-family: 'Roboto', sans-serif;
+      background: transparent;
+
+   }
+   #recent .container h1 a
+   {
+      text-decoration: none;
+      color: #E67E22  ;
+   }
+   #conjuringCaption
+   {
+      color: white;
+   }
+   #tarzanCaption
+   {
+      color: white;
+   }
+   #bfgCaption
+   {
+      color: white;
+   }
+   #ware
+   {
+      margin-top: 40px;
+   }
+   #wareCaption
+   {
+      color: white;
+   }
+   #insurgent
+   {
+      margin-top: 40px;
+   }
+   #insurgentCaption
+   {
+      color: white;
+   }
+   #battle
+   {
+      margin-top: 40px;
+   }
+   #battleCaption
+   {
+      color: white;
+   }
+   #popeyCaption
+   {
+      color: white;
+   }
+   #piratesCaption
+   {
+      color: white;
+   }
+   #wolverineCaption
+   {
+      color: white;
+   }
+   #godzillaCaption
+   {
+      color: white;
+   }
+   footer
+   {
+      background-color: black;
+   }
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+
+.navbar 
+{
+   background-color: #2d2d32;
+}
+   #logo h4
+{
+   color: white;
+   width: 230px;
+   height:40px;
+   font-size: 35px;
+   
+}
+#navigation
+{
+   margin-top: 15px;
+   
+   
+}
+#navigation li
+{
+   
+   font-size: 20px;
+   word-spacing: 10px;
+   color: #5D6D7E;     
+
+}
+#navigation li :hover
+{
+   color: #DC7633;
+}
+#iconuser
+{
+   font-size: 20px;
+   margin-top: 13px;
+}
+
+#searchInput
+{
+   margin-top: 20px;
+   width: 300px;
+   margin-left: 75px;
+}
+#searchbtn
+{
+   margin-top: 20px;
+}
+
+
+/* --------------------------------------
+   Carousel
+   -------------------------------------- 
+*/
+
+#myCarousel .item { height: 550px; }
+#slide1 {
+      background: url('../../img/test.jpg') top center no-repeat;
+   }
+   #slide2 {
+      background: url('../../img/hitman.jpg') top center no-repeat;
+   }
+   #slide3 {
+      background: url('../../img/super.jpg') top center no-repeat;
+   }
+
+#myCarousel {
+   margin-top: 80px;
+}
+
+
+
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+
+@media (max-width: 480px) {
+   #myCarousel .item { height: 250px; }
+
+	#searchInput
+   {
+      margin-left: -5px;
+      width: 150px;
+   }
+
+   #slide1 {
+      background: url('../../img/slide1360.jpg') top center no-repeat;
+   }
+   #slide2 {
+      background: url('../../img/hitman360.jpg') top center no-repeat;
+   }
+   #slide3 {
+      background: url('../../img/superman360.jpg') top center no-repeat;
+   }
+
+   #snowden img
+   {
+      width: 300px;
+      height: 200px;
+
+   }
+   #ware img
+   {
+      width:300px;
+   }
+   #insurgent img
+   {
+      width:300px;
+   }
+}
+
+/* Landscape phone to portrait tablet */
+@media (min-width: 768px) {
+   #myCarousel .item { height: 350px; }
+   
+   #slide1 {
+      background: url('../../img/slide1720.jpg') top center no-repeat;
+   }
+   #slide2 {
+      background: url('../../img/slide2720.jpg') top center no-repeat;
+   }
+   #slide3 {
+      background: url('../../img/slide3720.jpg') top center no-repeat;
+   }
+
+   
+	
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+
+   #myCarousel .item { height: 550px; }
+
+   #slide1 {
+      background: url('../../img/test.jpg') top center no-repeat;
+   }
+   #slide2 {
+      background: url('../../img/hitman.jpg') top center no-repeat;
+   }
+   #slide3 {
+      background: url('../../img/super.jpg') top center no-repeat;
+   }
+
+  /* #snowden img
+   {
+      width: 450px;
+      height: 250px;
+   }
+
+   #tarzan img
+   {
+      width: 300;
+      height: 250;
+   } */
+	
+}
